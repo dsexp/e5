@@ -15,7 +15,7 @@ class TokenRing:
         while True:
             # check if the token is received
             if token:
-                print("Node ",current_node,":Received token wih data token")
+                print("Node ",current_node,":Received token wih data",token)
 
             # Process the token or perform some action
             # in this example, we print the data of the current node
